@@ -28,7 +28,7 @@ Este é o Back End do projeto que vai interagir diretamente com o banco de dados
 ### 🚀 Como rodar
 Para rodar o projeto você vai precisar:
 
-- Iniciar um servidor com o MySQL com seu aplicativo de escolha e deixar a conexão como localhost, crie o usuário treina com a senha treina para a API acessar.
+- Iniciar um servidor com o MySQL com seu aplicativo de escolha e deixar a conexão como localhost, crie o usuário `treina` com a senha `treina` para a API acessar.
 - Configurar o Java e o Maven corretamente, instalando e definindo suas váriaveis de ambiente.
 - Quando os anteriores estiverem feitos você pode rodar o seguinte comando:
 
