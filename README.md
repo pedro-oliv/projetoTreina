@@ -40,7 +40,7 @@ Linux:
 ```
 ./mvnw spring-boot:run
 ```
-Caso resultar em um erro de permissão no Linux certifique-se de usar o seguinte código:
+- Caso resultar em um erro de permissão no Linux certifique-se de usar o seguinte código:
 ```
 chmod +x mvnw
 ```
@@ -52,6 +52,7 @@ Esta é a parte que vai interagir diretamente com o usuário com uma interface c
 
 ### 📸 Preview
 
+<img src=print.png>
 
 ### 🔧 Pré-Requisitos
 
@@ -84,4 +85,8 @@ npm run dev
 
 Para testar você pode interagir com todos os campos para gerar seu próprio currículo.
 
-## 🎉 Muitos agradecimentos!
+### 📜 Licença
+
+Este projeto está sob licença Creative Commons Zero v1.0 Universal veja [LICENSE](LICENSE.md) para saber mais.
+
+### 🎉 Muitos agradecimentos!
