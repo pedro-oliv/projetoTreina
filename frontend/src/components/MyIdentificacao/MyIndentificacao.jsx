@@ -12,6 +12,7 @@ function Identificacao() {
     bairro: "",
     cidade: "",
     uf: "",
+    cep: ""
   });
 
   const [id, setId] = useState(null); 
@@ -68,6 +69,7 @@ function Identificacao() {
         bairro: "",
         cidade: "",
         uf: "",
+        cep:""
       });
       setId(null);
       alert("Dados deletados com sucesso!");
@@ -143,6 +145,16 @@ function Identificacao() {
               placeholder="Digite o número"
               name="numero"
               value={dados.numero}
+              onChange={handleChange}
+            />
+          </Form.Group>
+          <Form.Group as={Col} controlId="formCEP">
+            <Form.Label>CEP</Form.Label>
+            <Form.Control
+              type="text"
+              placeholder="Digite o CEP"
+              name="cep"
+              value={dados.cep}
               onChange={handleChange}
             />
           </Form.Group>

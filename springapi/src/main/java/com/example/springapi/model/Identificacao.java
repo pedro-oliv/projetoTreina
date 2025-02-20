@@ -40,4 +40,7 @@ public class Identificacao {
 
     @Column(name = "uf", nullable = false)
     private String uf;
+
+    @Column(name = "cep", nullable = false)
+    private String cep;
 }

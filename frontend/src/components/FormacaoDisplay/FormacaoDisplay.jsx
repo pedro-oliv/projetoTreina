@@ -57,8 +57,8 @@ function FormacaoDisplay() {
               <Card key={`pos-${index}`} className="p-3 mb-3">
                 <Row>
                   <Col md={2}><strong>Ano:</strong> {formacao.ano}</Col>
-                  <Col md={3}><strong>Curso:</strong> {formacao.curso}</Col>
-                  <Col md={4}><strong>Instituição:</strong> {formacao.ie}</Col>
+                  <Col md={4}><strong>Curso:</strong> {formacao.curso}</Col>
+                  <Col md={3}><strong>Instituição:</strong> {formacao.ie}</Col>
                   <Col md={3}><strong>Título:</strong> {formacao.titulo}</Col>
                 </Row>
               </Card>

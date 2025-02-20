@@ -50,6 +50,9 @@ function IdentificacaoDisplay({}) {
           <Col md={6}><strong>Cidade:</strong> {dados.cidade}</Col>
           <Col md={6}><strong>UF:</strong> {dados.uf}</Col>
         </Row>
+        <Row className="mt-2">
+        <Col md={6}><strong>CEP:</strong> {dados.cep}</Col>
+        </Row>
       </Card>
     </Container>
   );
