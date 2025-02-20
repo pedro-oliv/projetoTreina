@@ -1,0 +1,9 @@
+.avatar-display-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+#imagem {
+    border: solid 3px grey;
+}
